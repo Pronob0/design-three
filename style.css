@@ -1,0 +1,298 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	
+}
+#loading{
+	position: fixed;
+	width:100%;
+	height: 100vh;
+	background:#F5F5FA url('asset/images/Dual\ Ball-1s-200px.gif') 
+	no-repeat center;
+	z-index: 2;
+}
+.img1{
+	position: relative;
+	background: url("asset/images/img1.jpg");
+	height: 700px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	filter: brightness(60%);
+	background-attachment: fixed;
+
+}
+.content{
+	top: 0px;
+	position: absolute;
+	width: 100%;
+	height:100%;	
+}
+.logo{
+	color: white;
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: .5px;
+	position: relative;
+}
+.logo::after{
+	content: ' ';
+	position: absolute;
+	height: 5px;
+	width: 5px;
+	border-radius: 50%;
+	background: red;
+	bottom: 15px;
+	right: -5px;
+}
+.mynav a{
+	color:#808080;
+	font-weight: 600;
+	
+}
+.mynav a:hover{
+	color: antiquewhite;
+}
+
+.btn1{
+	color: white;
+	background: orangered;
+	padding: 10px 20px;
+	border-radius: 100px;
+	font-size: 14px;
+}
+
+.btn1:hover,
+.explore-button:hover{
+	text-decoration: none;
+	color: white;
+	opacity: .9;
+	
+}
+.treat{
+	margin-top: 10%;
+	margin-left: auto;
+	text-align: center;
+	color: white;
+
+}
+.para1{
+	font-size: 12px;
+	letter-spacing: 3px;
+	font-weight: 600;
+}
+.treat h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+.para2{
+	width: 40%;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0px 20px 30%;
+	
+}
+.para2 span{
+position: relative;	
+}
+.para2 span::after{
+	content: ' ';
+	position: absolute;
+	width: 100%;
+	height: 5px;
+	bottom: -5px;
+	left: 0;
+	background: orangered;
+	
+}
+.explore-button{
+	color: white;
+	background: orangered;
+	padding: 15px 25px;
+	border-radius: 50px;
+}
+.social {
+	float: right;
+	margin-right: 50px;
+	margin-top: 10%;
+}
+.social a{
+	margin-right: 10px;
+	background: white;
+	color: orangered;
+	font-size: 20px;
+	padding: 10px 15px;
+	border-radius: 50%;
+}
+.second-section{
+	background: #FEE2B3;
+	overflow: hidden;
+}
+
+.category{
+	margin-top: 80px;
+}
+.category p{
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+.category h2 span{
+	color: orangered;
+}
+.category a:active{
+	background: white;
+	padding: 20px 30px;
+	border-radius: 10px;
+}
+
+.meal-category span{
+	font-size: 20px;
+	margin-left: 20px;	
+	color: #A44B00;
+	letter-spacing: 1px;
+}
+.meal-category a:hover{
+	text-decoration: none;
+}
+.meal-category img{
+	height: 35px;
+	width: 35px;
+}
+.carousel img{
+	border-radius: 10px;
+	transition: 2s;
+}
+.carousel img:hover{
+	transform: scale(1.05);
+}
+.desert{
+	margin-top: 150px;
+}
+.desert-head{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.desert-head p{
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+.desert-head h2 span{
+	color: orangered;
+}
+.card{
+	background: #fee2b3;
+}
+.card:hover{
+	background: white;
+}
+.card img{
+	height: 80px;
+	width: 80px;
+}
+.desert-content{
+	float: right;
+	font-size: 20px;
+}
+.prize{
+	color: orangered;
+}
+.customer-section{
+	position: relative;
+			
+}
+.customer-bg{
+	position: absolute;
+	background-image: url('asset/images/slider1img1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+}
+
+.customer{
+	position: absolute;
+	background: #FEE2B3;
+	height: 100%;
+	opacity: .8;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.customer-content{
+	position: relative;
+	
+}
+.customer-img img{
+	border-radius: 10px;
+	transition: 0.5s;
+}
+.customer-img img:hover{
+	transform: scale(1.05);
+	
+}
+.carousel2 img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+.dot {
+	cursor: pointer;
+	height: 10px;
+	width: 10px;
+	margin: 0 2px;
+	background-color: rgb(245, 78, 78);
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+.dot:hover {
+	background-color: #717171;
+  }
+.customer-details{
+	font-weight: 600;	
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.customer-paragraph{
+	margin-top: -20PX;
+}
+
+.customer-name{
+	color: orangered;
+	margin-bottom: -2px;
+	font-size: 20px;
+}
+.event-section{
+	background: #FEE2B3;
+	overflow: hidden;
+}
+.event-header{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.event{
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+.event-header h2 span{
+	color: orangered;
+}
+.event-head-para{
+	width: 500px;
+	text-align: center;
+	word-spacing: 1px;
+	line-height: 30px;
+	margin-top: 20px;
+	
+}
+.nav-section{
+	margin-left: 50%;
+	margin-top: 30px;
+}
+.event-content h2{
+	color: orangered;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
